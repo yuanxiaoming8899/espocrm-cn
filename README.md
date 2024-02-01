@@ -1,74 +1,46 @@
-## EspoCRM
-
-[![PHPStan level 8](https://img.shields.io/badge/PHPStan-level%208-brightgreen)](#espocrm)
-
-[EspoCRM is an Open Source CRM](https://www.espocrm.com) (Customer Relationship Management)
-software that allows you to see, enter and evaluate all your company relationships regardless
-of the type. People, companies or opportunities – all in an easy and intuitive interface.
-
-It's a web application with a frontend designed as a single page application and a REST API
-backend written in PHP.
-
-[Download](https://www.espocrm.com/download/) the latest release from our website. Release notes
-and release packages are available at [Releases](https://github.com/espocrm/espocrm/releases) on GitHub.
-
-![Screenshot](https://user-images.githubusercontent.com/1006792/226094559-995dfd2a-a18f-4619-a21b-79a4e671990a.png)
-
-### Demo
-
-You can try the CRM on the online [demo](https://www.espocrm.com/demo/).
-
-### Requirements
-
-* PHP 8.1 - 8.3;
-* MySQL 5.7 (and later), or MariaDB 10.2 (and later);
-* PostgreSQL 15 (and later) (yet experimental, officially supported soon).
-
-For more information about server configuration see [this article](https://docs.espocrm.com/administration/server-configuration/).
-
-### Documentation
-
-See the [documentation](https://docs.espocrm.com) for administrators, users and developers.
-
-### Bug reporting
-
-Create a [GitHub issue](https://github.com/espocrm/espocrm/issues/new/choose) or post on our [forum](https://forum.espocrm.com/forum/bug-reports).
-
-### Installing stable version
-
-See installation instructions:
-
-* [Manual installation](https://docs.espocrm.com/administration/installation/)
-* [Installation by script](https://docs.espocrm.com/administration/installation-by-script/)
-* [Installation with Docker](https://docs.espocrm.com/administration/docker/installation/)
-* [Installation with Traefik](https://docs.espocrm.com/administration/docker/traefik/)
-
-### Development
-
-See the [developer documentation](https://docs.espocrm.com/development/).
-
-We highly recommend using IDE for development. The backend codebase follows SOLID principles, utilizes interfaces, static typing and generics. We recommend to start learning EspoCRM from the Dependency Injection article in the documentation.
-
-### Community & Support
-
-If you have a question regarding some features, need help or customizations, want to get in touch with other EspoCRM users, or add a feature request, please use our [community forum](https://forum.espocrm.com/). We believe that using the forum to ask for help and share experience allows everyone in the community to contribute and use this knowledge later.
-
-### License
-
-EspoCRM is published under the GNU AGPLv3 [license](https://raw.githubusercontent.com/espocrm/espocrm/master/LICENSE.txt).
-
-### Contributing
-
-Before we can merge your pull request, you need to accept our CLA [here](https://github.com/espocrm/cla). See [contributing guidelines](https://github.com/espocrm/espocrm/blob/master/.github/CONTRIBUTING.md).
-
-Branches:
-
-* *fix* – upcoming maintenance release; minor fixes should be pushed to this branch;
-* *master* – develop branch; new features should be pushed to this branch;
-* *stable* – last stable release.
-
-### Language
-
-If you want to improve existing translation or add a language that is not available yet, you can contribute on our [POEditor](https://poeditor.com/join/project/gLDKZtUF4i) project. See instructions [here](https://www.espocrm.com/blog/how-to-use-poeditor-to-translate-espocrm/). It may be reasonable to let us know about your intention to join the POEditor project by posting on our forum or via the contact form on our website.
-
-Changes on POEditor are usually merged to the GitHub repository before minor releases.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h2 tabindex="-1" dir="auto"><a id="user-content-espocrm" class="anchor" aria-hidden="true" tabindex="-1" href="#espocrm"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">埃斯波CRM</font></font></h2>
+<p dir="auto"><a href="#espocrm"><img src="https://camo.githubusercontent.com/cd8b939997928cbc60332adadb7f2be76de9474d7c70ef537302aa53af3d2cd6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5048505374616e2d6c6576656c253230382d627269676874677265656e" alt="PHP斯坦8级" data-canonical-src="https://img.shields.io/badge/PHPStan-level%208-brightgreen" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://www.espocrm.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EspoCRM 是一款开源 CRM</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（客户关系管理）软件，可让您查看、输入和评估所有公司关系，无论其类型如何。</font><font style="vertical-align: inherit;">人员、公司或机会——一切都在一个简单直观的界面中。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是一个 Web 应用程序，前端设计为单页应用程序，后端使用 PHP 编写。</font></font></p>
+<p dir="auto"><a href="https://www.espocrm.com/download/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从我们的网站下载</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新版本。</font><font style="vertical-align: inherit;">发行说明和发行包可在GitHub 上的</font></font><a href="https://github.com/espocrm/espocrm/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Releases</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中获取。</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/1006792/226094559-995dfd2a-a18f-4619-a21b-79a4e671990a.png"><img src="https://user-images.githubusercontent.com/1006792/226094559-995dfd2a-a18f-4619-a21b-79a4e671990a.png" alt="截屏" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-demo" class="anchor" aria-hidden="true" tabindex="-1" href="#demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://www.espocrm.com/demo/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过在线演示</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">试用 CRM </font><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-requirements" class="anchor" aria-hidden="true" tabindex="-1" href="#requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP 8.1 - 8.3；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MySQL 5.7（及更高版本）或 MariaDB 10.2（及更高版本）；</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL 15（及更高版本）（尚处于实验阶段，很快就会正式支持）。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关服务器配置的更多信息，请参阅</font></font><a href="https://docs.espocrm.com/administration/server-configuration/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅管理员、用户和开发人员的</font></font><a href="https://docs.espocrm.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-bug-reporting" class="anchor" aria-hidden="true" tabindex="-1" href="#bug-reporting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">错误报告</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="https://forum.espocrm.com/forum/bug-reports" rel="nofollow"><font style="vertical-align: inherit;">在我们的论坛</font></a><font style="vertical-align: inherit;">上创建</font></font><a href="https://github.com/espocrm/espocrm/issues/new/choose"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub 问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或帖子</font><font style="vertical-align: inherit;">。</font></font><a href="https://forum.espocrm.com/forum/bug-reports" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-installing-stable-version" class="anchor" aria-hidden="true" tabindex="-1" href="#installing-stable-version"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装稳定版本</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅安装说明：</font></font></p>
+<ul dir="auto">
+<li><a href="https://docs.espocrm.com/administration/installation/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">手动安装</font></font></a></li>
+<li><a href="https://docs.espocrm.com/administration/installation-by-script/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过脚本安装</font></font></a></li>
+<li><a href="https://docs.espocrm.com/administration/docker/installation/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Docker 安装</font></font></a></li>
+<li><a href="https://docs.espocrm.com/administration/docker/traefik/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Traefik 安装</font></font></a></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-development" class="anchor" aria-hidden="true" tabindex="-1" href="#development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发展</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://docs.espocrm.com/development/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们强烈建议使用 IDE 进行开发。</font><font style="vertical-align: inherit;">后端代码库遵循 SOLID 原则，利用接口、静态类型和泛型。</font><font style="vertical-align: inherit;">我们建议从文档中的依赖注入文章开始学习 EspoCRM。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-community--support" class="anchor" aria-hidden="true" tabindex="-1" href="#community--support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区与支持</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对某些功能有疑问、需要帮助或自定义、想要与其他 EspoCRM 用户联系或添加功能请求，请使用我们的</font></font><a href="https://forum.espocrm.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">我们相信，使用论坛寻求帮助和分享经验可以让社区中的每个人都能在以后贡献和使用这些知识。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EspoCRM 是根据 GNU AGPLv3</font></font><a href="https://raw.githubusercontent.com/espocrm/espocrm/master/LICENSE.txt" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布的。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在我们合并您的 Pull 请求之前，您需要</font></font><a href="https://github.com/espocrm/cla"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接受我们的 CLA 。</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://github.com/espocrm/espocrm/blob/master/.github/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分支机构：</font></font></p>
+<ul dir="auto">
+<li><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">修复</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">– 即将发布的维护版本；</font><font style="vertical-align: inherit;">小修复应该推送到这个分支；</font></font></li>
+<li><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">master</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> – 开发分支；</font><font style="vertical-align: inherit;">新功能应该推送到这个分支；</font></font></li>
+<li><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">stable</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> – 最后一个稳定版本。</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-language" class="anchor" aria-hidden="true" tabindex="-1" href="#language"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想改进现有翻译或添加尚不可用的语言，您可以为我们的</font></font><a href="https://poeditor.com/join/project/gLDKZtUF4i" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">POEditor</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目做出贡献。</font></font><a href="https://www.espocrm.com/blog/how-to-use-poeditor-to-translate-espocrm/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅此处的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">说明</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">通过在我们的论坛上发帖或通过我们网站上的联系表让我们了解您加入 POEditor 项目的意图可能是合理的。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">POEditor 上的更改通常会在次要版本发布之前合并到 GitHub 存储库。</font></font></p>
+</article></div>
